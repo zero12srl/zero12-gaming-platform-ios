@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="zero12_gaming" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="0Z5-L5-DHe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainBackground" translatesAutoresizingMaskIntoConstraints="NO" id="yO6-HI-HtI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="3kE-K1-vU7">
+                    <rect key="frame" x="127" y="70" width="121" height="79"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gaming Platform" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzP-CG-jDC">
+                    <rect key="frame" x="79" y="164" width="217.5" height="35.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yO6-HI-HtI" secondAttribute="trailing" id="4Df-PE-raB"/>
+                <constraint firstItem="3kE-K1-vU7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="50" id="Da6-Kx-x3K"/>
+                <constraint firstItem="nzP-CG-jDC" firstAttribute="top" secondItem="3kE-K1-vU7" secondAttribute="bottom" constant="15" id="GYh-mF-YQG"/>
+                <constraint firstAttribute="bottom" secondItem="yO6-HI-HtI" secondAttribute="bottom" id="KWr-hi-XGu"/>
+                <constraint firstItem="nzP-CG-jDC" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="XMT-dY-9Em"/>
+                <constraint firstItem="yO6-HI-HtI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="a7W-rC-zyb"/>
+                <constraint firstItem="yO6-HI-HtI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="piP-3Q-HA9"/>
+                <constraint firstItem="3kE-K1-vU7" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="w4h-Km-HLr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="121" height="79"/>
+        <image name="MainBackground" width="880" height="1518"/>
+    </resources>
+</document>

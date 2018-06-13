@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007FAE3A38C3DDCB33FF2560 /* Pods_zero12_gaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA4026FA7943888B9B389E4 /* Pods_zero12_gaming.framework */; };
 		D1CC115720D0F166002DF925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC115620D0F166002DF925 /* AppDelegate.swift */; };
 		D1CC115920D0F166002DF925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC115820D0F166002DF925 /* ViewController.swift */; };
-		D1CC115C20D0F166002DF925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CC115A20D0F166002DF925 /* Main.storyboard */; };
 		D1CC115E20D0F167002DF925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CC115D20D0F167002DF925 /* Assets.xcassets */; };
 		D1CC116120D0F167002DF925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CC115F20D0F167002DF925 /* LaunchScreen.storyboard */; };
+		D1CC116A20D0F19E002DF925 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC116920D0F19E002DF925 /* LoginViewController.swift */; };
+		D1CC116C20D0F1B2002DF925 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1CC116B20D0F1B2002DF925 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FA4026FA7943888B9B389E4 /* Pods_zero12_gaming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zero12_gaming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D291141C8C41CC464E60086 /* Pods-zero12-gaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zero12-gaming.release.xcconfig"; path = "Pods/Target Support Files/Pods-zero12-gaming/Pods-zero12-gaming.release.xcconfig"; sourceTree = "<group>"; };
 		D1CC115320D0F166002DF925 /* zero12-gaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zero12-gaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CC115620D0F166002DF925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1CC115820D0F166002DF925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1CC115B20D0F166002DF925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1CC115D20D0F167002DF925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1CC116020D0F167002DF925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1CC116220D0F167002DF925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CC116920D0F19E002DF925 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D1CC116B20D0F1B2002DF925 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		EBA9376920600B06DD3F01F2 /* Pods-zero12-gaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zero12-gaming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zero12-gaming/Pods-zero12-gaming.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007FAE3A38C3DDCB33FF2560 /* Pods_zero12_gaming.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA26E82194D12CB1BF67D28D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FA4026FA7943888B9B389E4 /* Pods_zero12_gaming.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1CC114A20D0F166002DF925 = {
 			isa = PBXGroup;
 			children = (
 				D1CC115520D0F166002DF925 /* zero12-gaming */,
 				D1CC115420D0F166002DF925 /* Products */,
+				E10553467509937C6BED2481 /* Pods */,
+				AA26E82194D12CB1BF67D28D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,31 @@
 			isa = PBXGroup;
 			children = (
 				D1CC115620D0F166002DF925 /* AppDelegate.swift */,
-				D1CC115820D0F166002DF925 /* ViewController.swift */,
-				D1CC115A20D0F166002DF925 /* Main.storyboard */,
 				D1CC115D20D0F167002DF925 /* Assets.xcassets */,
-				D1CC115F20D0F167002DF925 /* LaunchScreen.storyboard */,
 				D1CC116220D0F167002DF925 /* Info.plist */,
+				D1CC115F20D0F167002DF925 /* LaunchScreen.storyboard */,
+				D1CC116820D0F18E002DF925 /* Login */,
+				D1CC115820D0F166002DF925 /* ViewController.swift */,
 			);
 			path = "zero12-gaming";
+			sourceTree = "<group>";
+		};
+		D1CC116820D0F18E002DF925 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D1CC116920D0F19E002DF925 /* LoginViewController.swift */,
+				D1CC116B20D0F1B2002DF925 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E10553467509937C6BED2481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA9376920600B06DD3F01F2 /* Pods-zero12-gaming.debug.xcconfig */,
+				4D291141C8C41CC464E60086 /* Pods-zero12-gaming.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1CC116520D0F167002DF925 /* Build configuration list for PBXNativeTarget "zero12-gaming" */;
 			buildPhases = (
+				57453201160BF5C44BD9ADD5 /* [CP] Check Pods Manifest.lock */,
 				D1CC114F20D0F166002DF925 /* Sources */,
 				D1CC115020D0F166002DF925 /* Frameworks */,
 				D1CC115120D0F166002DF925 /* Resources */,
+				60F2B5A6C0C8781261F86FA7 /* [CP] Embed Pods Frameworks */,
+				5D67E8CB5B4CC4164824B0E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,17 +162,86 @@
 			files = (
 				D1CC116120D0F167002DF925 /* LaunchScreen.storyboard in Resources */,
 				D1CC115E20D0F167002DF925 /* Assets.xcassets in Resources */,
-				D1CC115C20D0F166002DF925 /* Main.storyboard in Resources */,
+				D1CC116C20D0F1B2002DF925 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57453201160BF5C44BD9ADD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zero12-gaming-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D67E8CB5B4CC4164824B0E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zero12-gaming/Pods-zero12-gaming-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F2B5A6C0C8781261F86FA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zero12-gaming/Pods-zero12-gaming-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zero12-gaming/Pods-zero12-gaming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1CC114F20D0F166002DF925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CC116A20D0F19E002DF925 /* LoginViewController.swift in Sources */,
 				D1CC115920D0F166002DF925 /* ViewController.swift in Sources */,
 				D1CC115720D0F166002DF925 /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +250,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D1CC115A20D0F166002DF925 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1CC115B20D0F166002DF925 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D1CC115F20D0F167002DF925 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,16 +377,17 @@
 		};
 		D1CC116620D0F167002DF925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA9376920600B06DD3F01F2 /* Pods-zero12-gaming.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "zero12-gaming/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "it.zero12.zero12-gaming";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,16 +395,17 @@
 		};
 		D1CC116720D0F167002DF925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D291141C8C41CC464E60086 /* Pods-zero12-gaming.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "zero12-gaming/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "it.zero12.zero12-gaming";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

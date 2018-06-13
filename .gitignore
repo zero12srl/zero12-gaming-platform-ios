@@ -1,0 +1,8 @@
+.DS_Store
+*.xcuserstate
+*.xcuserdatad
+/Carthage
+Cartfile.resolved
+/Pods
+xcdebugger/
+Podfile.lock
