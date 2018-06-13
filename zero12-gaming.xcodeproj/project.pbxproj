@@ -14,6 +14,7 @@
 		D1CC116120D0F167002DF925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CC115F20D0F167002DF925 /* LaunchScreen.storyboard */; };
 		D1CC116A20D0F19E002DF925 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC116920D0F19E002DF925 /* LoginViewController.swift */; };
 		D1CC116C20D0F1B2002DF925 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1CC116B20D0F1B2002DF925 /* LoginViewController.xib */; };
+		D1CC117220D1B2FE002DF925 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC117120D1B2FE002DF925 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D1CC116220D0F167002DF925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1CC116920D0F19E002DF925 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D1CC116B20D0F1B2002DF925 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D1CC117120D1B2FE002DF925 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EBA9376920600B06DD3F01F2 /* Pods-zero12-gaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zero12-gaming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zero12-gaming/Pods-zero12-gaming.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 		D1CC115520D0F166002DF925 /* zero12-gaming */ = {
 			isa = PBXGroup;
 			children = (
+				D1CC117020D1B2F2002DF925 /* Utils */,
 				D1CC115620D0F166002DF925 /* AppDelegate.swift */,
 				D1CC115D20D0F167002DF925 /* Assets.xcassets */,
 				D1CC116220D0F167002DF925 /* Info.plist */,
@@ -88,6 +91,14 @@
 				D1CC116B20D0F1B2002DF925 /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		D1CC117020D1B2F2002DF925 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D1CC117120D1B2FE002DF925 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		E10553467509937C6BED2481 /* Pods */ = {
@@ -244,6 +255,7 @@
 				D1CC116A20D0F19E002DF925 /* LoginViewController.swift in Sources */,
 				D1CC115920D0F166002DF925 /* ViewController.swift in Sources */,
 				D1CC115720D0F166002DF925 /* AppDelegate.swift in Sources */,
+				D1CC117220D1B2FE002DF925 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +395,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "zero12-gaming/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,7 +416,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "zero12-gaming/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
